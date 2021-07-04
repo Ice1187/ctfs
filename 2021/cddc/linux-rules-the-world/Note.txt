@@ -1,0 +1,10 @@
+Notice
+
+
+1. As part of the ZIP file, you will find a text file that can be used to connect to the target machine. 
+
+2. Each one of the flags is the password for the next user. Your main goal is to access the last user account.
+
+3. The flags are located in the user home folders.
+
+4. The passphrase for the SSH key is: q1w2e3r4

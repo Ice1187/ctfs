@@ -1,0 +1,58 @@
+# Nmap 7.60 scan initiated Thu Jun 24 11:55:21 2021 as: nmap -sC -sV -v -oN ports.nmap 18.136.74.102
+Nmap scan report for ec2-18-136-74-102.ap-southeast-1.compute.amazonaws.com (18.136.74.102)
+Host is up (0.078s latency).
+Not shown: 985 filtered ports
+PORT     STATE SERVICE       VERSION
+21/tcp   open  ftp?
+53/tcp   open  domain        Microsoft DNS
+88/tcp   open  kerberos-sec  Microsoft Windows Kerberos (server time: 2021-06-24 11:55:42Z)
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: gdc.local, Site: Default-First-Site-Name)
+445/tcp  open  microsoft-ds  Windows Server 2016 Datacenter 14393 microsoft-ds (workgroup: GDC)
+464/tcp  open  kpasswd5?
+554/tcp  open  rtsp?
+593/tcp  open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  tcpwrapped
+1723/tcp open  pptp?
+|_pptp-version: ERROR: Script execution failed (use -d to debug)
+3268/tcp open  ldap          Microsoft Windows Active Directory LDAP (Domain: gdc.local, Site: Default-First-Site-Name)
+3269/tcp open  tcpwrapped
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+| ssl-cert: Subject: commonName=GDC-DC-S.gdc.local
+| Issuer: commonName=GDC-DC-S.gdc.local
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2021-06-17T22:16:39
+| Not valid after:  2021-12-17T22:16:39
+| MD5:   86b8 e200 73eb 6fda 8a6b 6e79 cb03 cc14
+|_SHA-1: 3945 e6e8 37c1 cf9c 9db8 b111 9a57 1b1e 8c3d bfa7
+|_ssl-date: 2021-06-24T11:58:03+00:00; +2s from scanner time.
+Service Info: Host: GDC-DC-S; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 1s, deviation: 0s, median: 1s
+| smb-os-discovery: 
+|   OS: Windows Server 2016 Datacenter 14393 (Windows Server 2016 Datacenter 6.3)
+|   Computer name: GDC-DC-S
+|   NetBIOS computer name: GDC-DC-S\x00
+|   Domain name: gdc.local
+|   Forest name: gdc.local
+|   FQDN: GDC-DC-S.gdc.local
+|_  System time: 2021-06-24T11:58:04+00:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: required
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2021-06-24 11:58:08
+|_  start_date: 2021-06-22 10:03:36
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Jun 24 12:00:13 2021 -- 1 IP address (1 host up) scanned in 291.67 seconds

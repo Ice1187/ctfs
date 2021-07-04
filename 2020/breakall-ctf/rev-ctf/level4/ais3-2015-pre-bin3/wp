@@ -1,0 +1,10 @@
+check0:
+(xor(in[i], in[i+1], ...in[i+7])) == 0x1b ? True : False
+
+check1:
+key = input ^ {0xdadaddaa, 0xddddaaaa}(key)
+
+check2:
+key == {0xbfb7b8ce, 0xbcb4dec4} ? Ture : False
+
+FLAG: dementia

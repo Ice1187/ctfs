@@ -1,0 +1,9 @@
+# Nmap 7.60 scan initiated Thu Jun 24 09:56:08 2021 as: nmap -sC -sV -v -p- -oN all-ports.nmap 178.128.118.134
+Discovered open port 21/tcp on 178.128.118.134
+Discovered open port 22/tcp on 178.128.118.134
+Discovered open port 445/tcp on 178.128.118.134
+Discovered open port 554/tcp on 178.128.118.134
+Discovered open port 1723/tcp on 178.128.118.134
+Discovered open port 111/tcp on 178.128.118.134
+Discovered open port 139/tcp on 178.128.118.134
+

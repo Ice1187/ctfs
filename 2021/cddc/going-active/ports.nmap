@@ -1,0 +1,61 @@
+# Nmap 7.60 scan initiated Thu Jun 24 06:31:34 2021 as: nmap -sC -sV -v -oN ports.nmap 178.128.118.134
+Nmap scan report for 178.128.118.134
+Host is up (0.085s latency).
+Not shown: 992 closed ports
+PORT     STATE SERVICE       VERSION
+21/tcp   open  ftp           vsftpd 3.0.3
+22/tcp   open  ssh           OpenSSH 8.2p1 Ubuntu 4ubuntu0.2 (Ubuntu Linux; protocol 2.0)
+111/tcp  open  rpcbind       2-4 (RPC #100000)
+| rpcinfo: 
+|   program version   port/proto  service
+|   100000  2,3,4        111/tcp  rpcbind
+|   100000  2,3,4        111/udp  rpcbind
+|   100003  3           2049/udp  nfs
+|   100003  3,4         2049/tcp  nfs
+|   100005  1,2,3      37021/udp  mountd
+|   100005  1,2,3      51387/tcp  mountd
+|   100021  1,3,4      46105/tcp  nlockmgr
+|   100021  1,3,4      53127/udp  nlockmgr
+|   100227  3           2049/tcp  nfs_acl
+|_  100227  3           2049/udp  nfs_acl
+139/tcp  open  netbios-ssn?
+| fingerprint-strings: 
+|   SMBProgNeg: 
+|_    SMBr
+445/tcp  open  microsoft-ds?
+| fingerprint-strings: 
+|   SMBProgNeg: 
+|_    SMBr
+554/tcp  open  rtsp?
+1723/tcp open  tcpwrapped
+|_pptp-version: ERROR: Script execution failed (use -d to debug)
+2049/tcp open  nfs_acl       3 (RPC #100227)
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port139-TCP:V=7.60%I=7%D=6/24%Time=60D426DA%P=x86_64-pc-linux-gnu%r(SMB
+SF:ProgNeg,29,"\0\0\0%\xffSMBr\0\0\0\0\x88\x03@\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0@\x06\0\0\x01\0\x01\xff\xff\0\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port445-TCP:V=7.60%I=7%D=6/24%Time=60D426D4%P=x86_64-pc-linux-gnu%r(SMB
+SF:ProgNeg,29,"\0\0\0%\xffSMBr\0\0\0\0\x88\x03@\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0@\x06\0\0\x01\0\x01\xff\xff\0\0");
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+| nbstat: NetBIOS name: NFS-01-2GB-AMD-, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| Names:
+|   NFS-01-2GB-AMD-<00>  Flags: <unique><active>
+|   NFS-01-2GB-AMD-<03>  Flags: <unique><active>
+|   NFS-01-2GB-AMD-<20>  Flags: <unique><active>
+|   WORKGROUP<00>        Flags: <group><active>
+|_  WORKGROUP<1e>        Flags: <group><active>
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-06-24 06:33:47
+|_  start_date: 1601-01-01 00:00:00
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Jun 24 06:33:53 2021 -- 1 IP address (1 host up) scanned in 138.50 seconds

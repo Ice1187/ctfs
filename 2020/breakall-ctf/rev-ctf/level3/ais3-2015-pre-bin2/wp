@@ -1,0 +1,3 @@
+xor every pushed byte with 0xcc
+reverse
+ascii

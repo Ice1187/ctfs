@@ -1,0 +1,2 @@
+1. Write 64 bytes to error_log, when choosing character.
+2. player_type has length `NAME_MAX_SIZE`, so it overwritten to game_points.

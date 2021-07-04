@@ -1,0 +1,8 @@
+# Nmap 7.60 scan initiated Thu Jun 24 06:36:52 2021 as: nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse -o enum-smb.nmap 178.128.118.134
+Nmap scan report for 178.128.118.134
+Host is up (0.090s latency).
+
+PORT    STATE SERVICE
+445/tcp open  microsoft-ds
+
+# Nmap done at Thu Jun 24 06:36:53 2021 -- 1 IP address (1 host up) scanned in 1.18 seconds

@@ -1,0 +1,11 @@
+$ john --wordlist=/opt/SecLists/Passwords/Leaked-Databases/rockyou.txt liam.hash
+Using default input encoding: UTF-8
+Loaded 1 password hash (Salted-SHA1 [SHA1 256/256 AVX2 8x])
+Warning: poor OpenMP scalability for this hash type, consider --fork=4
+Will run 4 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+987654321        (?)
+1g 0:00:00:00 DONE (2021-06-25 07:30) 100.0g/s 3276Kp/s 3276Kc/s 3276KC/s 123456..dyesebel
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed
+

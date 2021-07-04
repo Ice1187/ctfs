@@ -1,0 +1,6 @@
+# Nmap 7.60 scan initiated Fri Jun 25 10:24:03 2021 as: nmap -6 -sC -sV -v -oN ports-ipv6.nmap 18.136.74.102
+Warning: Hostname 18.136.74.102 resolves, but not to any IPv6 address. Try scanning without -6
+Failed to resolve "18.136.74.102".
+Read data files from: /usr/bin/../share/nmap
+WARNING: No targets were specified, so 0 hosts scanned.
+# Nmap done at Fri Jun 25 10:24:04 2021 -- 0 IP addresses (0 hosts up) scanned in 0.50 seconds

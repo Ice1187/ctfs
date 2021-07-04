@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+  <title>GDC SRV-03</title>
+</head>
+
+<body class="body">
+
+  <div class="nav-bar">
+    <img src="images/logo.png" class="logo" >
+  </div>
+
+  <div class="inject">
+    <h1>Can You Get IT?</h1>
+    <form class="" action="#" method="post">
+      <input type="text" name="input" placeholder="Inject" value"">
+      <input type="submit">
+    </form>
+    <br>
+    <?php
+
+    if (isset($_POST['input'])) {
+        if(!preg_match('/[a-zA-Z`]/', $_POST['input'])){
+            print '<fieldset><legend>Result</legend>';
+            eval('print '.$_POST['input'].";");
+            print '</fieldset>';
+        }
+        else
+            echo "<h3>No Way!</h3>";
+    }
+    ?>
+
+  </div>
+
+  <!-- Just to reminde me to remove the backup folder -->
+
+</body>
+</html>
