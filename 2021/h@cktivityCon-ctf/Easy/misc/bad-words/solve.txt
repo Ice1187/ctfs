@@ -1,0 +1,6 @@
+ls: ${PATH:5:1}${PATH:2:1}
+cd: ${PATH:7:1}d <dir>
+less: ${PATH:5:1}ess <file>
+
+flag location: ./just/out/of/reach/flag.txt
+

