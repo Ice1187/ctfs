@@ -24,5 +24,6 @@ In forth phase, it reads 1 integer `int`, then check if the return of the `check
 ![equation](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20check(n)=%5Cbegin%7Bcases%7D1&,n%20%3C%202%5C%5Ccheck(n-1)&plus;check(n-2)&,o.w.%5Cend%7Bcases%7D%20)
 
 I wrote the script `phase4.py` to find the answer, which is `9`.
+
 ![phase4-1.png](./phase4-1.png)
 ![phase4-2.png](./phase4-2.png)
