@@ -1,0 +1,55 @@
+Volatility 3 Framework 2.0.0
+Progress:  100.00               PDB scanning finished
+PID     Process Args
+
+4       System  Required memory at 0x10 is not valid (process exited?)
+236     smss.exe        \SystemRoot\System32\smss.exe
+312     csrss.exe       %SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,12288,512 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+352     wininit.exe     wininit.exe
+364     csrss.exe       %SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,12288,512 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+404     services.exe    C:\Windows\system32\services.exe
+412     lsass.exe       C:\Windows\system32\lsass.exe
+420     lsm.exe C:\Windows\system32\lsm.exe
+496     winlogon.exe    winlogon.exe
+576     svchost.exe     C:\Windows\system32\svchost.exe -k DcomLaunch
+640     VBoxService.ex  C:\Windows\System32\VBoxService.exe
+696     svchost.exe     C:\Windows\system32\svchost.exe -k RPCSS
+748     svchost.exe     C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted
+864     svchost.exe     C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted
+904     svchost.exe     C:\Windows\system32\svchost.exe -k netsvcs
+1016    svchost.exe     C:\Windows\system32\svchost.exe -k LocalService
+1108    svchost.exe     C:\Windows\system32\svchost.exe -k NetworkService
+1256    dwm.exe "C:\Windows\system32\Dwm.exe"
+1272    explorer.exe    C:\Windows\Explorer.EXE
+1316    spoolsv.exe     C:\Windows\System32\spoolsv.exe
+1376    taskhost.exe    "taskhost.exe"
+1384    svchost.exe     C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork
+1456    VBoxTray.exe    "C:\Windows\System32\VBoxTray.exe"
+1636    vmicsvc.exe     C:\Windows\system32\vmicsvc.exe -feature Heartbeat
+1656    vmicsvc.exe     C:\Windows\system32\vmicsvc.exe -feature KvpExchange
+1684    vmicsvc.exe     C:\Windows\system32\vmicsvc.exe -feature Shutdown
+1708    vmicsvc.exe     C:\Windows\system32\vmicsvc.exe -feature TimeSync
+1748    vmicsvc.exe     C:\Windows\system32\vmicsvc.exe -feature VSS
+1784    svchost.exe     C:\Windows\System32\svchost.exe -k utcsvc
+1868    cygrunsrv.exe   "C:\Program Files\OpenSSH\bin\cygrunsrv.exe"
+1936    wlms.exe        C:\Windows\system32\wlms\wlms.exe
+264     cygrunsrv.exe   Required memory at 0x7ffda010 is not valid (process exited?)
+320     conhost.exe     \??\C:\Windows\system32\conhost.exe "-21224506073039007362020542711549723400-1140074999-1699775824-1267270478-1755106166
+268     sshd.exe        "C:\Program Files\OpenSSH\usr\sbin\sshd.exe"
+1124    sppsvc.exe      C:\Windows\system32\sppsvc.exe
+1920    svchost.exe     C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted
+2160    SearchIndexer.  C:\Windows\system32\SearchIndexer.exe /Embedding
+2248    SearchProtocol  "C:\Windows\system32\SearchProtocolHost.exe" Global\UsGthrFltPipeMssGthrPipe_S-1-5-21-1716914095-909560446-1177810406-10001_ Global\UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-1716914095-909560446-1177810406-10001 1 -2147483646 "Software\Microsoft\Windows Search" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)" "C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc" "DownLevelDaemon"  "1"
+2268    SearchFilterHo  "C:\Windows\system32\SearchFilterHost.exe" 0 504 508 516 65536 512
+2304    SearchProtocol  "C:\Windows\system32\SearchProtocolHost.exe" Global\UsGthrFltPipeMssGthrPipe2_ Global\UsGthrCtrlFltPipeMssGthrPipe2 1 -2147483646 "Software\Microsoft\Windows Search" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)" "C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc" "DownLevelDaemon"
+2388    csrss.exe       %SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,12288,512 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+2416    winlogon.exe    winlogon.exe
+2612    taskhost.exe    "taskhost.exe"
+2656    userinit.exe    C:\Windows\system32\userinit.exe
+2664    dwm.exe "C:\Windows\system32\Dwm.exe"
+2676    explorer.exe    C:\Windows\Explorer.EXE
+2796    VBoxTray.exe    "C:\Windows\System32\VBoxTray.exe"
+3340    DumpIt.exe      "C:\Users\Santa\Desktop\DumpIt.exe"
+3352    conhost.exe     \??\C:\Windows\system32\conhost.exe "-194346449-1960955927602413251676614716-11540462851854120851181194133737285038
+3412    dllhost.exe     C:\Windows\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+

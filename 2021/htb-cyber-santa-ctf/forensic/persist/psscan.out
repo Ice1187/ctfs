@@ -1,0 +1,59 @@
+Volatility 3 Framework 2.0.0
+Progress:  100.00               PDB scanning finished
+PID     PPID    ImageFileName   Offset(V)       Threads Handles SessionId       Wow64   CreateTime      ExitTime        File output
+
+4       0       System  0x2c9a940       76      512     N/A     False   2021-11-30 22:05:03.000000      N/A     Disabled
+236     4       smss.exe        0x21cb6bd8      4       32      N/A     False   2021-11-30 22:05:03.000000      N/A     Disabled
+2416    2376    winlogon.exe    0x3d993728      6       124     2       False   2021-11-30 22:05:15.000000      N/A     Disabled
+2612    404     taskhost.exe    0x3e252258      10      155     2       False   2021-11-30 22:05:19.000000      N/A     Disabled
+2656    2416    userinit.exe    0x3e25bb00      4       47      2       False   2021-11-30 22:05:19.000000      N/A     Disabled
+2664    864     dwm.exe 0x3e25d998      4       86      2       False   2021-11-30 22:05:19.000000      N/A     Disabled
+2676    2656    explorer.exe    0x3e260ab8      35      655     2       False   2021-11-30 22:05:19.000000      N/A     Disabled
+2796    2676    VBoxTray.exe    0x3e28c830      16      146     2       False   2021-11-30 22:05:19.000000      N/A     Disabled
+1636    404     vmicsvc.exe     0x3e42eba8      8       105     0       False   2021-11-30 22:05:07.000000      N/A     Disabled
+1656    404     vmicsvc.exe     0x3e43f8d8      9       114     0       False   2021-11-30 22:05:07.000000      N/A     Disabled
+1684    404     vmicsvc.exe     0x3e4449b8      5       68      0       False   2021-11-30 22:05:07.000000      N/A     Disabled
+1708    404     vmicsvc.exe     0x3e44b6b0      7       81      0       False   2021-11-30 22:05:07.000000      N/A     Disabled
+1748    404     vmicsvc.exe     0x3e452b00      7       82      0       False   2021-11-30 22:05:07.000000      N/A     Disabled
+1784    404     svchost.exe     0x3e45b9e0      13      186     0       False   2021-11-30 22:05:07.000000      N/A     Disabled
+1936    404     wlms.exe        0x3e496218      5       48      0       False   2021-11-30 22:05:08.000000      N/A     Disabled
+2268    2160    SearchFilterHo  0x3e4c9d28      6       81      0       False   2021-11-30 22:05:13.000000      N/A     Disabled
+320     312     conhost.exe     0x3e51cd28      2       32      0       False   2021-11-30 22:05:08.000000      N/A     Disabled
+268     264     sshd.exe        0x3e520d28      6       102     0       False   2021-11-30 22:05:08.000000      N/A     Disabled
+3412    576     dllhost.exe     0x3e5363c0      6       3       2       False   2021-11-30 22:05:36.000000      N/A     Disabled
+2160    404     SearchIndexer.  0x3e566ad8      14      680     0       False   2021-11-30 22:05:12.000000      N/A     Disabled
+2248    2160    SearchProtocol  0x3e5e2d28      8       257     1       False   2021-11-30 22:05:13.000000      N/A     Disabled
+2304    2160    SearchProtocol  0x3e5ed760      9       277     0       False   2021-11-30 22:05:13.000000      N/A     Disabled
+576     404     svchost.exe     0x3e611030      15      369     0       False   2021-11-30 22:05:05.000000      N/A     Disabled
+2388    2376    csrss.exe       0x3e638d28      9       189     2       False   2021-11-30 22:05:15.000000      N/A     Disabled
+496     344     winlogon.exe    0x3e675260      6       121     1       False   2021-11-30 22:05:05.000000      N/A     Disabled
+640     404     VBoxService.ex  0x3e694530      14      125     0       False   2021-11-30 22:05:05.000000      N/A     Disabled
+696     404     svchost.exe     0x3e6a1d28      9       254     0       False   2021-11-30 22:05:06.000000      N/A     Disabled
+748     404     svchost.exe     0x3e6a6d28      19      367     0       False   2021-11-30 22:05:06.000000      N/A     Disabled
+404     352     services.exe    0x3e6ab588      24      265     0       False   2021-11-30 22:05:04.000000      N/A     Disabled
+904     404     svchost.exe     0x3e6bcd28      44      842     0       False   2021-11-30 22:05:06.000000      N/A     Disabled
+1124    404     sppsvc.exe      0x3e6d9d28      6       152     0       False   2021-11-30 22:05:09.000000      N/A     Disabled
+1920    404     svchost.exe     0x3e6dad28      6       94      0       False   2021-11-30 22:05:09.000000      N/A     Disabled
+864     404     svchost.exe     0x3e6f4030      22      433     0       False   2021-11-30 22:05:06.000000      N/A     Disabled
+1016    404     svchost.exe     0x3e719368      24      354     0       False   2021-11-30 22:05:06.000000      N/A     Disabled
+1108    404     svchost.exe     0x3e736030      21      367     0       False   2021-11-30 22:05:06.000000      N/A     Disabled
+1256    864     dwm.exe 0x3e77a030      6       85      1       False   2021-11-30 22:05:06.000000      N/A     Disabled
+1272    1248    explorer.exe    0x3e781030      34      669     1       False   2021-11-30 22:05:06.000000      N/A     Disabled
+1376    404     taskhost.exe    0x3e7b0320      10      156     1       False   2021-11-30 22:05:07.000000      N/A     Disabled
+1384    404     svchost.exe     0x3e7b1030      26      323     0       False   2021-11-30 22:05:07.000000      N/A     Disabled
+1456    1272    VBoxTray.exe    0x3e7eea70      17      151     1       False   2021-11-30 22:05:07.000000      N/A     Disabled
+1868    404     cygrunsrv.exe   0x3e7fbd28      7       107     0       False   2021-11-30 22:05:07.000000      N/A     Disabled
+312     304     csrss.exe       0x3e8dbb00      8       473     0       False   2021-11-30 22:05:03.000000      N/A     Disabled
+420     352     lsm.exe 0x3e91d838      12      188     0       False   2021-11-30 22:05:04.000000      N/A     Disabled
+412     352     lsass.exe       0x3e91fd28      9       647     0       False   2021-11-30 22:05:04.000000      N/A     Disabled
+352     304     wininit.exe     0x3ee4c750      7       90      0       False   2021-11-30 22:05:04.000000      N/A     Disabled
+1316    404     spoolsv.exe     0x3eecfb00      16      298     0       False   2021-11-30 22:05:07.000000      N/A     Disabled
+364     344     csrss.exe       0x3f154818      7       179     1       False   2021-11-30 22:05:04.000000      N/A     Disabled
+264     1868    cygrunsrv.exe   0x3f1e5620      0       -       0       False   2021-11-30 22:05:08.000000      2021-11-30 22:05:08.000000      Disabled
+3352    2388    conhost.exe     0x3f452478      2       50      2       False   2021-11-30 22:05:29.000000      N/A     Disabled
+3340    2676    DumpIt.exe      0x3f452d28      2       37      2       False   2021-11-30 22:05:29.000000      N/A     Disabled
+3352    2388    conhost.exe     0x3f4f2478      2       50      2       False   2021-11-30 22:05:29.000000      N/A     Disabled
+3340    2676    DumpIt.exe      0x3f4f2d28      2       37      2       False   2021-11-30 22:05:29.000000      N/A     Disabled
+3352    2388    conhost.exe     0x3f592478      2       50      2       False   2021-11-30 22:05:29.000000      N/A     Disabled
+3340    2676    DumpIt.exe      0x3f592d28      2       37      2       False   2021-11-30 22:05:29.000000      N/A     Disabled
+
