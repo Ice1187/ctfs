@@ -1,0 +1,6 @@
+lea rax, [rdi + rsi]  code{some_instructions_have_many_uses}
+code{asm_c4n_d0_anything_java_can_do}
+code{did_you_get_the_flag?}
+
+
+
