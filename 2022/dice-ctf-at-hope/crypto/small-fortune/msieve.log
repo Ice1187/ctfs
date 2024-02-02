@@ -1,0 +1,18 @@
+Mon Jul 25 00:04:10 2022  
+Mon Jul 25 00:04:10 2022  
+Mon Jul 25 00:04:10 2022  Msieve v. 1.53 (SVN unknown)
+Mon Jul 25 00:04:10 2022  random seeds: f3fa1736 03ac1110
+Mon Jul 25 00:04:10 2022  factoring 5832080516348558646278716204758888285385078953296653597433972614176912934671748379700597432210386360417671314971803500639260761097306855471676888652717301 (154 digits)
+Mon Jul 25 00:04:11 2022  no P-1/P+1/ECM available, skipping
+Mon Jul 25 00:04:11 2022  commencing quadratic sieve (154-digit input)
+Mon Jul 25 00:04:11 2022  using multiplier of 29
+Mon Jul 25 00:04:11 2022  using generic 64kb sieve core
+Mon Jul 25 00:04:11 2022  sieve interval: 198 blocks of size 65536
+Mon Jul 25 00:04:11 2022  processing polynomials in batches of 1
+Mon Jul 25 00:04:11 2022  using a sieve bound of 42601193 (1290815 primes)
+Mon Jul 25 00:04:11 2022  using large prime bound of 4294967295 (31 bits)
+Mon Jul 25 00:04:11 2022  using double large prime bound of 218437776016143360 (51-58 bits)
+Mon Jul 25 00:04:11 2022  using trial factoring cutoff of 58 bits
+Mon Jul 25 00:04:11 2022  polynomial 'A' values have 16 factors
+Mon Jul 25 00:59:56 2022  0 relations (0 full + 0 combined from 72 partial), need 1290911
+Mon Jul 25 00:59:56 2022  elapsed time 00:55:46
