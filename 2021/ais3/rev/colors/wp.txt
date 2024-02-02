@@ -1,4 +1,0 @@
-1. Copy, paste encode.js to the browser console, then console.log(_0x3eb4) can get reordered array
-2. Substitute all getDataFromArray in document['addEventListener'], then the callback of keydown event become readable.
-3. [up,up,down,down,left,right,left,right,b,a] is the unlock key.
-

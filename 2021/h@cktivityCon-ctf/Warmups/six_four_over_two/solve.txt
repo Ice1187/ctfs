@@ -1,1 +1,0 @@
-CyberChef -> magic -> `From_Base32('A-Z2-7=',false)`

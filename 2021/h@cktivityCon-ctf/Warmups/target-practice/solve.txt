@@ -1,1 +1,0 @@
-The gif shows a sequence of Maxicodes, just read it and get the flag at the 15th image.

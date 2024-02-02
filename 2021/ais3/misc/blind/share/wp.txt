@@ -1,5 +1,0 @@
-1. stdin, stdout, stderr all has the same fd value (all refer to the current process)
-2. dup syscall can duplicate an opened fd.
-3. dup(stdin, 1) duplicate stdin back to stdout.
-
-=> 33 0 1 0 

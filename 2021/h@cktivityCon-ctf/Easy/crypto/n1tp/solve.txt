@@ -1,6 +1,0 @@
-Just a simple XOR.
-
-1. Input 38 'A'.
-2. Xor 38 'A' with the return encrypted message to find the key.
-3. Xor the key with the encrypted flag.
-4. Get flag.
